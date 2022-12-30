@@ -15,12 +15,8 @@ const student = {
         } else if (currentlevel == 5) {
             const crrLevel =  this.stack.push('NodeJS');
             return crrLevel;
-        }
-
-
-      
+        }  
     }
-
 }
 student.improveLevel()
 student.improveLevel()
