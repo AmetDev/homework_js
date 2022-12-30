@@ -22,3 +22,4 @@ newMakeDomestic()
 
 makeDomestic.call(bird, false)
 makeDomestic.apply(bird, [false])
+//gg
