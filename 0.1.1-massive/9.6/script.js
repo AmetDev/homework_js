@@ -18,6 +18,7 @@ let num = 0;
 numbers.reduce((acc, element) =>
  { acc + element**3, num},0)
 console.log(num)
+//
 
 
 
