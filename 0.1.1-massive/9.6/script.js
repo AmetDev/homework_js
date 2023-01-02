@@ -15,10 +15,11 @@ let num = 0;
 //     num += element **3
 // })
 // console.log(num) //1158411
-numbers.reduce((acc, element) =>
- { acc + element**3, num},0)
-console.log(num)
-//
+// const newArray = numbers.reduce((acc, element) =>{
+//     return  acc + element**3
+//     }, 0)
+// console.log(newArray)//1158411
+
 
 
 
