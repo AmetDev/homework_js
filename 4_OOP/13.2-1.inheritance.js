@@ -43,8 +43,6 @@ console.log('militaryPlane', militaryPlane)
 
 //instanceof - проверяет принадлежит ли экземпляр(объект) к классу 
 //В сравнии 46 стр. тоже true, т.к. class MilitaryPlane принадлежит Plane то и экземпляр militaryPlane будет принадлежать 
-
-
 console.log(militaryPlane instanceof MilitaryPlane) //true
 console.log(militaryPlane instanceof Plane) //true
 

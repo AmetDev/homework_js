@@ -1,4 +1,4 @@
-//string | symbol
+string | symbol
 
 
 const user = {
