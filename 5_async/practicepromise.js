@@ -36,6 +36,10 @@ const userfetch = fetch(USER_URL)
                 res.titleUser = infoTitle
                 res.body = infoBody
                 console.log(res)
+                let parent = document.querySelector('#parent');
+                let p = document.createElement('p');
+                p.innerHTML = `${res.body}`;
+                parent.appendChild(p);
             })
         })
        
