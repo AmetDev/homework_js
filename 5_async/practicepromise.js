@@ -14,7 +14,7 @@ const userfetch = fetch(USER_URL)
                     } else {
                         reject(Error('не найдено'))
                     }
-                }, 1000)
+                }, 0)
             })
         }
         const valuegetFamilyNUmber =  getFamilyNumber(1)
